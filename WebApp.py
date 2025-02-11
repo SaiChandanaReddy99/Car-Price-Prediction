@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import joblib
 
-# Load the trained model
+# Load the trained model (Using GradientBoostingRegressor)
 model = joblib.load("car_price_model.pkl")
 
 # Load processed data to get unique values for dropdowns
